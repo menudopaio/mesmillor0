@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+<!-- Si hace falta añadir algun link -->
+{% block links %} <!-- ___ --> {% endblock %}
+
+<!-- El titulo en layout.html contiene "Mes Millor". Si se deja el bloque vacio, aparecera solamente Mes Millor -->
+{% block title %} - Lo que nos importa{% endblock %}
+
+<!-- Bloque principal (todo menos cabecera y footer) -->
+{% block main %}
+    <!-- TODO HERE -->
+    <div class="content">
+        <section class="section-como-funciona">
+            <div class="como-funciona">
+                <h2 class="h2-intro-home ml4">Sobre Més Millor</h2>
+                <h3 class="h3-intro-home ml4">El que ens importa</h3>
+                <div class="como-funciona-texto">
+                    <p class="p-gris">Ens agrada compartir, ajudar, cooperar i crèixer en conjunt. Aspirem a viure lliures i felices. Volem millorar el món i procurem fer-ho amb petites-grans decisions i accions al nostre dia a dia. Volem compartir amb vosaltres una mica dels nostres valors i les nostres idees, que podem enmarcar en diferents àmbits.</p>
+                    <h4 class="p-negro">Perspectiva de gènere</h4>
+                    <p class="p-gris">Creiem en una societat basada en el respecte, equitativa i igualitària en drets i tracte. Entenem les relacions socials com vinculacions construides desde l’afecte i no en base a relacions de poder o submissió. Pensem que les diferències personals enriqueixen la societat i les maneres de viure i pensar. Ens posicionem en contra dels estereotips i rols de gènere per reclamar la llibertat de les persones. Qüestionem les construccions socioculturals i el sistema normatiu i defensem les cures compartides, la concil·liació laboral, familiar i personal.</p>
+                    <h4 class="p-negro">Sostenibilitat</h4>
+                    <p class="p-gris">Promovem un estil de vida sostenible i una <a class="in-text-a" href="/psiconutricion">alimentació natural i conscient.</a> Algunes de les accions concretes que emprenem i aconsellem:</p>
+                    <ul class="p-gris">
+                        <li>Consumir responsablement</li>
+                        <li>Escollir comerç just</li>
+                        <li>Lluitar contra el malbaratament de tot tipus</li>
+                        <li>Preferència per productes locals o de proximitat per reduïr la despesa energètica</li>
+                        <li>Comprar a granel, evitant l’envasat</li>
+                        <li>Menjar fruites i verdes de temporada</li>
+                        <li>Minimitzar residus i petjada ambiental</li>
+                        <li>Apostar per processos no invasius en alimentació: menjar ecològic lliure de pesticides i químics.</li>
+                    </ul>
+                    <h4 class="p-negro">Desenvolupament personal</h4>
+                    <p class="p-gris">Que les persones que formen part de Més Millor puguin desenvolupar la seva autonomia i capacitats és una de les nostres prioritats. Busquem despertar i potenciar la motivació de les membres de l’organització per fer possibles els seus projectes personals i el desenvolupament del seu potencial. Consensuem condicions laborals per tal de fer possible la concil·liació laboral i familiar i de oci.</p>
+                    <h4 class="p-negro">Transformació social</h4>
+                    <p class="p-gris">Ens posicionem en contra del sistema capitalista i consumista. Desitgem una societat més justa, empoderada, solidària i sostenible ambientalment. Celebrem la diversitat i la cooperació i ens oposem a qualsevol mena de discriminació o violència. Estimem Barcelona en la seva diversitat cultural, identitària, lingüística i sexual, en que les persones puguin sentir-se integrades i acollides.</p>
+                    <h4 class="p-negro">Arrelament i intercooperació</h4>
+                    <p class="p-gris">La Sagrera és el barri on estem establides i ens sentim vinculades a aquest territori i a la resta de la ciutat de Barcelona. Ens agrada formar llaços i cooperar amb persones i entitats del barri i la ciutat, amb les quals compartim objectius i maneres de veure i viure la vida. Som membres del <a class="in-text-a" href="https://sagrera.es/" target="_blank">SAAC</a>, <a class="in-text-a" href="https://lazona.coop/" target="_blank">La Zona</a> i <a class="in-text-a" href="https://opcions.coop/es/" target="_blank">Opcions</a> i col·laborem amb algunes entitats amb les quals compartim sinergies com l’<a class="in-text-a" href="https://avvlasagrera.com/" target="_blank">associació de veïns i veïnes de La Sagrera</a>, <a class="in-text-a" href="https://granoleta.es/" target="_blank">Granoleta</a> o <a class="in-text-a" href="https://agora.xtec.cat/ceipemili-juncadella/" target="_blank">l’Escola Primària Emili Juncadella</a>, on practiques ioga com a activitat extraescolar.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+{% endblock %}

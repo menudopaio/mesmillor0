@@ -1,0 +1,76 @@
+{% extends "layout.html" %}
+
+<!-- Si hace falta añadir algun link -->
+{% block links %} <!-- ___ --> {% endblock %}
+
+<!-- El titulo en layout.html contiene "Mes Millor". Si se deja el bloque vacio, aparecera solamente Mes Millor -->
+{% block title %} - Psicologia{% endblock %}
+
+<!-- Bloque principal (todo menos cabecera y footer) -->
+{% block main %}
+    <div class="content">
+        <!-- AQUI TODO EL CUERPO DE LA PAGINA -->
+        <section class="sobre-mes-millor">
+            <article class="text-section">
+                <h2 class="h2-intro-home">PSICOLOGIA</h2>
+                <div class="psiconutricion-intro-text">
+                    <h3 class="h3-intro-home">SALUT EMOCIONAL</h3>
+                    <p class="p-gris">Quan vivim sense acceptar les emocions i situacions que ens produeixen malestar, aquestes es fan cada vegada més fortes i les vivim cada vegada amb més intensitat.</p>
+                    <p class="p-gris">Educar les emocions és deixar de reprimir-les, permetre-les ser i acceptar-les. És així com podem millorar la forma de tractar-nos a nosaltres i a les altres persones.</p>
+                </div>
+            </article>
+            <div class="images-section">
+                <div class="image-section"></div>
+            </div>
+        </section>
+        <section class="todo-cambia">
+            <div class="todo-cambia1">
+                <text class="h2-intro-home">No pots caviar el món però pots canviar la forma d'entendre’l</text>
+            </div>
+            <span class="centrado">---------*---------</span>
+            <div class="todo-cambia2">
+                <text class="h1-section-home">QUAN TU CANVIES,</text>
+                <text class="h1-section-home h1-amarillo">TOT CANVIA</text>
+            </div>
+        </section>
+        <section class="buscando-secciones">
+            <div class="cada-buscando-seccion">
+                <img id="buscando1" src="../static/images/yoga.png" alt="">
+            </div>
+            <div class="cada-buscando-seccion">
+                <img id="buscando2" src="../static/images/yoga.png" alt="">
+            </div>
+            <div class="cada-buscando-seccion">
+                <img id="buscando3" src="../static/images/yoga.png" alt="">
+            </div>
+        </section>
+        <section class="dalai-lama">
+            <blockquote>
+                <p>"Tots volem ser feliços (...). Els majors obstacles per a la pau interna són les emocions pertorbadores com l'odi, l'aferrament, la por i la suspicàcia, mentre que l'amor i la compassió son les fonts de la pau i la felicitat."</p>
+                <footer>Dalai Lama</footer>
+            </blockquote>
+        </section>
+        <section class="alimentarnos-con-sentido">
+            <div class="titulo-alimentarnos-sentido">
+                <h2 class="tas h2-intro-home mt3">Benestar Psicològic</h2>
+                <h1 class="tas h1-amarillo">Suport a la salut mental i emocional</h1>
+            </div>
+            <div class="momento-texto2">
+                <p class="p-negro">La salut emocional es relaciona amb el benestar psicològic i amb un <strong>estat intern d’equilibri.</strong><br>
+                    Dit d’una altra manera, hi ha <strong>consonància entre el que sents i el que fas.</strong> Entre qui ets i qui vols ser.<br>
+                    Et relaciones de manera positiva amb el teu món intern i extern.</p>
+                <p class="p-negro">En temps de canvi, d’incertesa o crisi, aquesta estabilitat pot trencar-se.<br>
+                <strong>Totes les persones passem per moments de desequilibri i és habitual sentir falta de control, fragilitat o incapacitar per resoldre la situació.</strong> Altres dificultats que pots experimentar són:<br>
+                    <ul>
+                        <li class="p-negro">Falta de confiança, autoconcepte baix o autoestima baixa</li>
+                        <li class="p-negro">Falta de motivació, apatia i desinterès</li>
+                        <li class="p-negro">Autocrítica i autoexigència excessives</li>
+                        <li class="p-negro">Falta de focus i incapacitar per a prioritzar</li>
+                    </ul>
+                    <text class="p-negro">Si et trobes en aquest moment i necessites suport emocional, posa’t en contacte amb nosaltres i concertarem una visita amb la nostra psicòloga.</text>
+                </p>
+                <button type="submit" class="no-button">CONSULTA LAS TARIFAS</button>
+            </div>
+        </section>
+    </div>
+{% endblock %}
