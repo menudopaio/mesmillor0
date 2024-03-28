@@ -31,7 +31,7 @@ HEADERiTEMS = [
 ]
 
 # HOME PAGE
-@app.route("/")
+@app.route("/es/")
 def home():
     return render_template ("home-esp.html")
 
@@ -39,7 +39,7 @@ def home():
 def homeCat():
     return render_template ("home-cat.html") """
 
-""" # PSICONUTRICION
+# PSICONUTRICION
 @app.route("/psiconutricion")
 def psiconutricion():
     return render_template("psiconutricion-esp.html")
@@ -78,7 +78,7 @@ def entrenaMenteCuidaCuerpo():
 # Lo que nos importa
 @app.route("/sobre-mes-millor")
 def sobreMesMillor():
-    return render_template ("sobreMesMillor-cat.html") """
+    return render_template ("sobreMesMillor-cat.html")
 
 if __name__ == '__main__':
     # Esta condición es importante para asegurarse de que la aplicación se ejecute

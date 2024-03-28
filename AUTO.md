@@ -20,3 +20,5 @@
 - Acabo de hacer el header y footer responsivo
 - He cambiado las propiedades de botones, textos, titulos y subtitulos por variables
 - Me proponia unificar clases en los html
+
+- Cambiar rutas relativas para github.
