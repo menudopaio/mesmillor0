@@ -31,13 +31,13 @@ HEADERiTEMS = [
 ]
 
 # HOME PAGE
-@app.route("/es/")
+@app.route("/")
 def home():
     return render_template ("home-esp.html")
 
-@app.route("/ca/")
+""" @app.route("/")
 def homeCat():
-    return render_template ("home-cat.html")
+    return render_template ("home-cat.html") """
 
 # PSICONUTRICION
 @app.route("/psiconutricion")
