@@ -35,9 +35,9 @@ HEADERiTEMS = [
 def home():
     return render_template ("home-esp.html")
 
-@app.route("/ca/")
+""" @app.route("/ca/")
 def homeCat():
-    return render_template ("home-cat.html")
+    return render_template ("home-cat.html") """
 
 # PSICONUTRICION
 @app.route("/es/psiconutricion")
@@ -55,7 +55,7 @@ def psicologia():
 def clasesYoga():
     return render_template("clasesYoga-cat.html")
 
-# Yoga para embarazadas
+""" # Yoga para embarazadas
 @app.route("/yoga-para-embarazadas")
 def yogaEmbarazadas():
     return render_template("yogaEmbarazadas.html")
@@ -78,7 +78,7 @@ def entrenaMenteCuidaCuerpo():
 # Lo que nos importa
 @app.route("/ca/sobre-mes-millor")
 def sobreMesMillor():
-    return render_template ("sobreMesMillor-cat.html")
+    return render_template ("sobreMesMillor-cat.html") """
 
 if __name__ == '__main__':
     # Esta condición es importante para asegurarse de que la aplicación se ejecute
