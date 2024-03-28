@@ -30,6 +30,9 @@ HEADERiTEMS = [
     "Psicologia"
 ]
 
+@app.route("/")
+def home0():
+    return redirect ("/es/")
 # HOME PAGE
 @app.route("/es/")
 def home():
