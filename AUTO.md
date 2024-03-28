@@ -15,3 +15,8 @@
 - Home -> Saber Mas (404 NOT FOUND)
 - Psicologia -> TARIFAS (404 NOT FOUND)
 - Yoga postnatal -> Saber mas (404 NOT FOUND)
+
+# ESTOY HACIENDO
+- Acabo de hacer el header y footer responsivo
+- He cambiado las propiedades de botones, textos, titulos y subtitulos por variables
+- Me proponia unificar clases en los html
