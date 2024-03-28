@@ -21,12 +21,12 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install Flask Frozen-Flask Flask-Session  # Instala Flask y Frozen-Flask y Flask-Session
+          pip install Flask Frozen-Flask Flask-Session  # Instala Flask, Frozen-Flask y Flask-Session
 
       - name: Generate static files
         run: |
-          # Aquí generas la versión estática de tu aplicación Flask
-          flask freeze
+          # Genera la versión estática de tu aplicación Flask
+          python app.py build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
