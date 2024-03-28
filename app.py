@@ -28,9 +28,13 @@ HEADERiTEMS = [
 ]
 
 # HOME PAGE
-@app.route("/")
+@app.route("/es/")
 def home():
     return render_template ("home-esp.html")
+
+@app.route("/ca/")
+def homeCat():
+    return render_template ("home-cat.html")
 
 # PSICONUTRICION
 @app.route("/psiconutricion")
