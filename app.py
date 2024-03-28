@@ -35,23 +35,23 @@ HEADERiTEMS = [
 def home():
     return render_template ("home-esp.html")
 
-""" @app.route("/")
+@app.route("/ca/")
 def homeCat():
-    return render_template ("home-cat.html") """
+    return render_template ("home-cat.html")
 
 # PSICONUTRICION
-@app.route("/psiconutricion")
+@app.route("/es/psiconutricion")
 def psiconutricion():
     return render_template("psiconutricion-esp.html")
 
 # PSICOLOGIA
-@app.route("/psicologia")
+@app.route("/ca/psicologia")
 def psicologia():
     return render_template("psicologia-cat.html")
 
 
 # Clases de Yoga
-@app.route("/clases-de-yoga")
+@app.route("/ca/clases-de-yoga")
 def clasesYoga():
     return render_template("clasesYoga-cat.html")
 
@@ -76,7 +76,7 @@ def entrenaMenteCuidaCuerpo():
     return render_template ("entrenaCuida.html")
 
 # Lo que nos importa
-@app.route("/sobre-mes-millor")
+@app.route("/ca/sobre-mes-millor")
 def sobreMesMillor():
     return render_template ("sobreMesMillor-cat.html")
 
