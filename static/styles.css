@@ -238,7 +238,7 @@ header nav .desktop .secondary .lenguages .cat, footer .footer-lenguages .cat {
 }
 
 .dropdown-content a {
-    color: var(--clr-medium-grey);
+    color: var(--clr-dark-grey);
     padding: 13px;
     text-decoration: none;
     display: block;
@@ -639,7 +639,7 @@ a {
     padding: 16px;
     transition-duration: 0.5s;
 }
-.cada-buscando-seccion:hover {
+.estoy-buscando .buscando-secciones .cada-buscando-seccion:hover {
     scale: 1.1;
 }
 #buscando1, #buscando2, #buscando3 {
@@ -806,6 +806,11 @@ a {
     justify-content: center;
     width: 100%;
 }
+.alimentarnos-con-sentido img {
+    width: 28x;
+    height: 28px;
+    margin: 20px 30px;
+}
 .titulo-alimentarnos-sentido {
     position: relative;
     text-align: center;
@@ -842,6 +847,11 @@ a {
     width: 100%;
     display: flex;
     flex-direction: column;
+}
+.todo-cambia img {
+    width: 28x;
+    height: 28px;
+    margin: 20px 30px;
 }
 .todo-cambia1 {
     position: relative;
