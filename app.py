@@ -34,13 +34,13 @@ base_uri = "es"
 
 @app.route('/')
 def home():
-    return render_template ("home-esp.html")
+    return render_template ("home-esp2.html")
 
 @app.route('/<string:base_uri>')
 # def index(base_uri=None):
 def index(base_uri):
     if base_uri == 'es':
-        return render_template("home-esp.html")
+        return render_template("home-esp2.html")
     elif base_uri == 'ca':
         return render_template('home-cat.html')
     
