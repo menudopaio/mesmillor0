@@ -34,7 +34,7 @@ base_uri = "es"
 
 @app.route('/')
 def home():
-    return redirect("/es")
+    return render_template ("home-esp.html")
 
 @app.route('/<string:base_uri>')
 # def index(base_uri=None):
