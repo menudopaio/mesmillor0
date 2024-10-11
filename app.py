@@ -1,5 +1,5 @@
 import sys
-from flask import Flask, redirect, render_template, request, session
+from flask import Flask, redirect, render_template, request, session, url_for, render_template_string
 from flask_session import Session
 from flask_frozen import Freezer
 
@@ -29,59 +29,82 @@ HEADERiTEMS = [
     "Psiconutrición",
     "Psicologia"
 ]
+# Definir la variable global base_uri
+base_uri = "es"
 
-@app.route("/")
-def home0():
-    return redirect ("/es/")
-# HOME PAGE
-@app.route("/es/")
+@app.route('/')
 def home():
-    return render_template ("home-esp2.html")
+    return redirect("/es")
 
-""" @app.route("/ca/")
-def homeCat():
-    return render_template ("home-cat.html") """
+@app.route('/<string:base_uri>')
+# def index(base_uri=None):
+def index(base_uri):
+    if base_uri == 'es':
+        return render_template("home-esp.html")
+    elif base_uri == 'ca':
+        return render_template('home-cat.html')
+    
+@app.route('/<string:base_uri>/psiconutricion')
+def psiconutricion(base_uri):
+    if base_uri == 'es':
+        return render_template('psiconutricion-esp.html')
+    elif base_uri == 'ca':
+        return render_template('psiconutricio-cat.html')
 
-# PSICONUTRICION
-@app.route("/es/psiconutricion")
-def psiconutricion():
-    return render_template("psiconutricion-esp.html")
 
 # PSICOLOGIA
-@app.route("/ca/psicologia")
-def psicologia():
-    return render_template("psicologia-cat.html")
+@app.route("/<string:base_uri>/psicologia")
+def psicologia(base_uri):
+    if base_uri == 'es':
+        return render_template('psicologia-esp.html')
+    elif base_uri == 'ca':
+        return render_template('psicologia-cat.html')
 
 
 # Clases de Yoga
-@app.route("/ca/clases-de-yoga")
-def clasesYoga():
-    return render_template("clasesYoga-cat.html")
+@app.route("/<string:base_uri>/clases-de-yoga")
+def clasesYoga(base_uri):
+    if base_uri == 'es':
+        return render_template('clasesYoga-esp.html')
+    elif base_uri == 'ca':
+        return render_template('clasesYoga-cat.html')
 
-""" # Yoga para embarazadas
-@app.route("/yoga-para-embarazadas")
-def yogaEmbarazadas():
-    return render_template("yogaEmbarazadas.html")
+# Yoga para embarazadas
+@app.route("/<string:base_uri>/yoga-para-embarazadas")
+def yogaEmbarazadas(base_uri):
+    if base_uri == 'es':
+        return render_template('yogaEmbarazadas-esp.html')
+    elif base_uri == 'ca':
+        return render_template('iogaEmbarassades-cat.html')
 
-# Yoga infantil
+""" # Yoga infantil
 @app.route("/yoga-infantil")
 def yogaInfantil():
-    return render_template("yogaInfantil.html")
+    return render_template("yogaInfantil.html") """
 
 # Yoga postnatal
-@app.route("/yoga-postnatal")
-def yogaPostnatal():
-    return render_template("yogaPostnatal.html")
+@app.route("/<string:base_uri>/yoga-postnatal")
+def yogaPostnatal(base_uri):
+    if base_uri == 'es':
+        return render_template('yogaPostnatal-esp.html')
+    elif base_uri == 'ca':
+        return render_template('iogaPostnatal-cat.html')
 
 # 404 NOT FOUND Entrena tu mente cuida tu cuerpo
-@app.route("/entrena-tu-mente-cuida-tu-cuerpo")
-def entrenaMenteCuidaCuerpo():
-    return render_template ("entrenaCuida.html")
+@app.route("/<string:base_uri>/entrena-tu-mente-cuida-tu-cuerpo")
+def entrenaMenteCuidaCuerpo(base_uri):
+    if base_uri == 'es':
+        return render_template('entrenaCuida-esp.html')
+    elif base_uri == 'ca':
+        return render_template('entrenaCuida-cat.html')
 
 # Lo que nos importa
-@app.route("/ca/sobre-mes-millor")
-def sobreMesMillor():
-    return render_template ("sobreMesMillor-cat.html") """
+@app.route("/<string:base_uri>/sobre-mes-millor")
+def sobreMesMillor(base_uri):
+    if base_uri == 'es':
+        return render_template('sobreMesMillor-esp.html')
+    elif base_uri == 'ca':
+        return render_template('sobreMesMillor-cat.html')
 
 if __name__ == '__main__':
     # Esta condición es importante para asegurarse de que la aplicación se ejecute
