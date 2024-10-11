@@ -1,65 +1,28 @@
-{% extends "layout-esp.html" %}
-
-<!-- Si hace falta añadir algun link -->
-{% block links %} <!-- ___ --> {% endblock %}
-
-{% block title %} - Centro de Yoga y Psiconutricion en Barcelona{% endblock %}
-
-<!-- Bloque principal (todo menos cabecera y footer) -->
-{% block main %}
-    <div class="content">
-        <section class="intro-home">
-            <h2 class="h2-intro-home">Clases de Yoga y Psiconutrición en Barcelona</h2>
-            <h3 class="h3-intro-home">Escogemos vivir en paz cuando nos ocupamos de disfrutar el momento presente y abrazamos lo que nos ofrece la vida</h3>
-        </section>
-        <section class="sobre-mes-millor">
-            <article class="text-section">
-                <h1 class="h1-section-home">MÉS MILLOR</h1>
-                <div class="sobre-mes-millor-text">
-                    <p class="p-negro">Centro de yoga y espacio de crecimiento y desarrollo personal.</p>
-                    <p class="p-negro">Con amor, positividad y disfrute por la vida, compartimos y transmitimos hábitos para cuidarnos física, mental y emocionalmente.</p>
-                </div>
-                <a class="sobre-mes-millor" href="/sobre-mes-millor"><button class="sobre-mes-millor-button" type="submit">Sobre Més Millor</button></a>
-            </article>
-            <div class="images-section">
-                <div class="image-section"></div>
-            </div>
-        </section>
-        <section class="estoy-buscando">
-            <h2 class="h2-intro-home">Estoy buscando...</h2>
-            <div class="buscando-secciones">
-                
-                <div class="cada-buscando-seccion">
-                    <a href="/clases-de-yoga">
-                        <img id="buscando1" src="../static/images/yoga.png" alt="">
-                    </a>
-                    <label for="buscando1">YOGA</label>
-                </div>
-                
-                <div class="cada-buscando-seccion">
-                    <a href="/psiconutricion">
-                        <img id="buscando2" src="../static/images/yoga.png" alt="">
-                    </a>
-                    <label for="buscando2">PSICONUTRICIÓN</label>
-                </div>
-                <div class="cada-buscando-seccion">
-                    <a href="/psicologia">
-                        <img id="buscando3" src="../static/images/yoga.png" alt="">
-                    </a>
-                    <label for="buscando3">PSICOLOGIA</label>
-                </div>
-            </div>
-        </section>
-        <section class="momento-elegirte">
-            <h2 class="h2-intro-home">Es el momento para elegirte</h2>
-            <div class="momento-texto">
-                <p class="p1 p-negro">Te construyes en base a tus hábitos</p>
-                <p class="p-negro">Qué haces en tu día a día, cómo hablas, cómo y de qué te alimentas, cómo te mueves, como de conectada estás con tu cuerpo y qué mirada tienes hacia él, a quién eliges para compartir tu vida, cómo afrontas las experiencias y emociones o qué actitudes practicas.</p>
-                <p class="p-gris">No hay otro momento para elegirte a ti mismx que éste momento presente. Para estar bien con todo lo demás, primero hay que comprometerse con una misma y priorizar cuidarse.</p>
-                <p class="p-gris">Estamos aquí para ayudarte a que te definas de la mejor manera y vivas como quieras.</p>
-                <a href="/entrena-tu-mente-cuida-tu-cuerpo"><button class="saber-mas-button" type="submit" href="">SABER MÁS</button></a>
-            </div>
-        </section>
-    </div>
-        
-{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MÉS MILLOR - CENTRO DE YOGA Y PSICONUTRICIÓN</title>
+    <link rel="stylesheet" href="../static/styles3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-bar">
+                <li class="logo"><a href="/"><img src="../static/images/Logo-Mes-Millor.png" alt="Logo Mes Millor"></a></li>
+                <input type="checkbox" id="check">
+                <span class="menu">
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="#">Yoga</a></li>
+                    <li><a href="#">Psiconutrición</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

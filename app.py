@@ -36,7 +36,7 @@ def home0():
 # HOME PAGE
 @app.route("/es/")
 def home():
-    return render_template ("home-esp2.html")
+    return render_template ("home-esp.html")
 
 """ @app.route("/ca/")
 def homeCat():
