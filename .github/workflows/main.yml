@@ -3,9 +3,9 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
-      - prueba
       - firstTry
+      - prueba
+      - main
   workflow_dispatch:
 
 jobs:
