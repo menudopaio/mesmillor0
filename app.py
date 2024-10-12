@@ -30,6 +30,7 @@ HEADERiTEMS = [
     "Psiconutrición",
     "Psicologia"
 ]
+# "" Para github, "." para local
 baseUri = ""
 
 @app.route("/")
