@@ -408,7 +408,13 @@ body {
     padding: 8px;
     margin: 20px 70px;
 }
-
+.boton:hover {
+    background-color: var(--clr-primary-dark); /* Cambia el fondo al hacer hover */
+    transition: 0.3s ease, color 0.3s ease;
+    color: var(--corp-clr-light); /* Cambia el color del texto al hacer hover */
+    cursor: pointer;
+    scale: 1.05;
+}
 
 /* FOOTER */
 footer {
@@ -644,7 +650,8 @@ footer .footer-primary a button:hover {
         margin: 8px;
     }
     .imgnx {
-        width: 90%;
+        width: 70vw;
+        height: 70vw;
     }
     .footer-primary {
         display: flex;
