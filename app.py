@@ -38,14 +38,6 @@ def home0():
 # HOME PAGE
 @app.route("/es/")
 def home():
-    # Verificar el entorno de ejecución
-    entorno = os.getenv('FLASK_ENV', 'local')  # Por defecto, se considera "local"
-
-    if entorno == 'github':
-        baseUri = ""
-    else:
-        baseUri = "."
-
     return render_template ("home-esp2.html", baseUri=baseUri)
 
 
