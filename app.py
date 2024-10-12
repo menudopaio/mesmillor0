@@ -30,7 +30,7 @@ HEADERiTEMS = [
     "Psiconutrición",
     "Psicologia"
 ]
-baseUri = ""
+baseUri = "."
 
 @app.route("/")
 def home0():
