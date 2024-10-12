@@ -494,7 +494,7 @@ footer .footer-primary a button:hover {
 
 /* HEADER MOVIL */
 /* @media screen and (max-width: 970px) and (min-width: 400px) { */
-@media screen and (max-width: 970px) and (min-width: 400px) {
+@media screen and (max-width: 970px) and (min-width: 200px) {
     .header {
         display: none;
     }
@@ -633,7 +633,7 @@ footer .footer-primary a button:hover {
     }
 }
 
-@media screen and (max-width: 756px) and (min-width: 400px) {
+@media screen and (max-width: 756px) and (min-width: 200px) {
     .footer-primary {
         display: flex;
         flex-direction: column;
