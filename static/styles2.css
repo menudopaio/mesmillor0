@@ -637,6 +637,7 @@ footer .footer-primary a button:hover {
     .footer-primary {
         display: flex;
         flex-direction: column;
+        top: 0;
     }
     footer .footer-primary a {
         margin-top: 10px;
