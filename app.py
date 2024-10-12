@@ -31,7 +31,7 @@ HEADERiTEMS = [
     "Psicologia"
 ]
 # "" Para github, "." para local
-baseUri = ""
+baseUri = "."
 
 @app.route("/")
 def home0():
