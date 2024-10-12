@@ -308,7 +308,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    width: 100vw;
 }
 
 .texto-inicio {
@@ -611,12 +611,15 @@ footer .footer-primary a button:hover {
     section.sobre-mes-millor {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
     }
     .sobre-mes-millor .titulo-texto-inicio {
         text-align: center;
-    }
-    .sobre-mes-millor .titulo-texto-inicio h2 {
-        margin-top: -40px;
+
+        width: 100%;
+        border: 1px solid red;
     }
     .hero {
         padding: 5px;
