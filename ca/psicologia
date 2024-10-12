@@ -3,59 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <meta http-equiv="refresh" content="3"> -->
-    <title>Document</title>
-    <link rel="stylesheet" href="../static/styles.css">
-    <!-- <link rel="stylesheet" href="static/styles.css"> -->
+    <title>MÉS MILLOR - CENTRO DE YOGA Y PSICONUTRICIÓN</title>
+    <link rel="stylesheet" href="./static/styles2.css">
      <!-- ___ --> 
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="desktop">
-                <div class="logo">
-                    <a href="/"><img class="header-logo" src="../static/images/Logo-Mes-Millor.png" alt="Logo Mes Millor"></a>
-                </div>
-                <div class="primary">
-                    <a class="headerItems" href="/es/">Inicio</a>
-                    <div class="dropdown">
-                        <a class="headerItems">Yoga</a>
-                        <div class="dropdown-content">
-                            <a class="block" href="/clases-de-yoga">Clases de Yoga</a>
-                            <a class="block" href="/yoga-para-embarazadas">Yoga para embarazadas</a>
-                            <a class="block" href="/yoga-postnatal">Yoga postnatal</a>
-                        </div>
-                    </div>
-                    <a class="headerItems" href="/psiconutricion">Psiconutricion</a>
-                    <a class="headerItems" href="/psicologia">Psicologia</a>
-                </div>
-                <div class="secondary">
-                    <a href="https://www.instagram.com/mes_millor/" target="_blank"><button class="instagramButton" type="submit">
-                        <img src="../static/images/instagram2.png" alt="Instagram">
-                        <text>INSTAGRAM</text>
-                    </button></a>
-                    <div class="lenguages">
-                        <button class="esp"></button>
-                        <button class="cat"></button>
-                    </div>
-                </div>
-
-                <div class="dropdown">
-                    <span class="menu-icon">+</span>
-                    <div class="dropdown-content">
-                        <a class="block" href="/">Inicio</a>
-                        <a class="block" href="/clases-de-yoga">Clases de Yoga</a>
-                        <a class="block" href="/yoga-para-embarazadas">Yoga para embarazadas</a>
-                        <a class="block" href="/yoga-postnatal">Yoga postnatal</a>
-                        <a class="block" href="/psiconutricion">Psiconutrición</a>
-                        <a class="block" href="/psicologia">Psicología</a>
-                    </div>
-                </div>
-
-
-            </div>
+    <!-- Encabezado -->
+    <header class="header">
+        <a class="a-logo" href="/"><img class="header-logo" src="./static/images/Logo-Mes-Millor.png" alt="Logo Mes Millor"></a>
+        <nav class="navbar">
+            <ul>
+                <li class="navbar-item"><a href="/es/">Inicio</a></li>
+                <li class="navbar-item"><a href="#">Yoga</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Clases de Yoga</a></li>
+                        <li><a href="#">Yoga para embarazadas</a></li>
+                        <li><a href="#">Yoga postnatal</a></li>
+                    </ul>
+                </li>
+                <li class="navbar-item"><a href="/es/psiconutricion">Psiconutrición</a></li>
+                <li class="navbar-item"><a href="#">Contacto</a></li>
+            </ul>
         </nav>
+        <div class="button-container">
+            <a href="https://www.instagram.com/mes_millor/" target="_blank"><button class="instagramButton" type="submit">
+                <img src="./static/images/instagram2.png" alt="Instagram">
+                <text>INSTAGRAM</text>
+            </button></a>
+        </div>
     </header>
+    <div class="secondary">
+        <a class="a-logo" href="/"><img class="secondary-logo" src="./static/images/Logo-Mes-Millor.png" alt="Logo Mes Millor"></a>
+        <input type="checkbox" id="check">
+        <div class="dropdown">
+            <a href="/clases-de-yoga"><img src="./static/images/yoga.png"><span>Clases de Yoga</span></a>
+            <a href="/psiconutricion"><img src="./static/images/yoga.png"><span>Psiconutrición</span></a>            
+            <a href="/psicologia"><img src="./static/images/yoga.png"><span>Psicología</span></a>
+            <a href="/yoga-para-embarazadas"><img src="./static/images/yoga.png"><span>Yoga para embarazadas</span></a>
+        </div>
+        <label for="check"><span class="open-menu">+</span></label>
+        <a href="https://www.instagram.com/mes_millor/" target="_blank"><button class="instagramButton" type="submit">
+            <img src="./static/images/instagram2.png" alt="Instagram">
+            <text>INSTAGRAM</text>
+        </button></a>
+    </div>
+
     <div class="container">
         
     <div class="content">
@@ -125,12 +117,10 @@
     </div>
 
     </div>
-
+    <!-- Pie de Página -->
     <footer>
         <div class="footer-primary">
-            <!-- <div class="logo-p"> -->
-                <a href="/"><img class="logo" src="../static/images/Logo-Mes-Millor.png" alt="Logo Mes Millor"></a>
-            <!-- </div> -->
+            <a href="/"><img class="logo" src="./static/images/Logo-Mes-Millor.png" alt="Logo Mes Millor"></a>
             <div class="footer-descripcion">
                 <h4>Més Millor</h4>
                 <p>Centro de yoga, psiconutrición y psicología en la Sagrera, Barcelona. Espacio de crecimiento y desarrollo personal. Actividades orientadas a mantener el equilibrio físico, mental y psciológico.</p>
@@ -139,20 +129,20 @@
             <div class="footer-contacto">
                 <h4>Contacto</h4>
                 <div class="contacto-info">
-                    <p>  EMAIL</p>
-                    <p>  TELEFONO</p>
-                    <p>  DIRECCION</p>
+                    <p>info@mesmillor.com</p>
+                    <p>644 37 61 70</p>
+                    <p>C/ Felip II, 23, entr. 4, 08027 Bcn</p>
                     <a target="_blank" href="https://www.instagram.com/mes_millor/">
                         <button type="submit">
-                            <img src="../static/images/instagram.png" alt="Instagram">
+                            <img src="./static/images/instagram.png" alt="Instagram">
                         </button>
                     </a>
                 </div>
             </div>
         </div>
         <div class="footer-lenguages">
-            <button class="esp"></button>
-            <button class="cat"></button>
+            <button></button>
+            <button></button>
         </div>
     </footer>
 </body>

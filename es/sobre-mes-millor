@@ -50,42 +50,9 @@
 
     <div class="container">
         
-    <!-- AQUI TODO EL CUERPO DE LA PAGINA -->
-    <!-- SECCION PRINCIPAL -->
+    <!-- TODO HERE -->
     <main class="main-content">
-        <section class="hero">
-            <h1 class="titulos">Clases de Yoga en Barcelona y Psiconutrición</h1>
-            <p class="subtitulos">Tu espacio para conectar contigo y con tu cuerpo.</p>
-        </section>
-
-        <section class="sobre-mes-millor">
-            <div class="titulo-texto-inicio">
-                <h2>MÉS MILLOR</h2>
-                <div class="texto-inicio general-text">
-                    <p>Centro de yoga y psiconutrición.</p>
-
-                    <p>Te acompañamos a descubrir una versión más equilibrada, confiada y fuerte de ti misma.</p>
-                    
-                    <p>Expande tu potencial físico y mental, cultivando hábitos transformadores que te permitan avanzar en tu crecimiento personal, vivir mejor y disfrutar más de tu vida.</p>
-                </div>
-                <a href="/es/sobre-mes-millor"><button type="submit" class="boton">Sobre Més Millor</button></a>
-            </div>
-            <div class="box">
-                <img src="./static/images/yoga.png" alt="Sala de Yoga">
-            </div>
-        </section>
-        <section class="estoy-buscando">
-            <h1 class="titulos">Estoy buscando...</h1>
-            <div class="estoy-buscando-content">
-                <div class="imgnx">
-                    <p class="subfoto">YOGA</p>
-                </div>
-                <div class="imgnx">
-                    <p class="subfoto">PSICONUTRICIÓN</p>
-                </div>
-            </div>
-        </section>
-        <div class="imgny"><img src="" alt=""></div>
+        
     </main>
 
     </div>
