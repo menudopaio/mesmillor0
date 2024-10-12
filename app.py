@@ -39,13 +39,15 @@ def home0():
 # HOME PAGE
 @app.route("/es/")
 def home():
-    return render_template ("home-esp2.html", baseUri=baseUri)
-
-
+    return render_template ("index.html", baseUri=baseUri)
+# LO QUE NOS IMPORTA
+@app.route("/es/sobre-mes-millor")
+def sobreMesMillor():
+    return render_template ("sobreMesMillor-es.html", baseUri=baseUri)
 # PSICONUTRICION
 @app.route("/es/psiconutricion")
 def psiconutricion():
-    return render_template("psiconutricion-esp.html")
+    return render_template("psiconutricion-esp.html", baseUri=baseUri)
 
 # PSICOLOGIA
 @app.route("/ca/psicologia")
@@ -78,10 +80,7 @@ def yogaPostnatal():
 def entrenaMenteCuidaCuerpo():
     return render_template ("entrenaCuida.html")
 
-# Lo que nos importa
-@app.route("/ca/sobre-mes-millor")
-def sobreMesMillor():
-    return render_template ("sobreMesMillor-cat.html") """
+ """
 
 if __name__ == '__main__':
     # Esta condición es importante para asegurarse de que la aplicación se ejecute
