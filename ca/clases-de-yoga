@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="3"> -->
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <!-- <link rel="stylesheet" href="static/styles.css"> -->
+     <!-- ___ --> 
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="desktop">
+                <div class="logo">
+                    <a href="/"><img class="header-logo" src="../static/images/Logo-Mes-Millor.png" alt="Logo Mes Millor"></a>
+                </div>
+                <div class="primary">
+                    <a class="headerItems" href="/es/">Inicio</a>
+                    <div class="dropdown">
+                        <a class="headerItems">Yoga</a>
+                        <div class="dropdown-content">
+                            <a class="block" href="/clases-de-yoga">Clases de Yoga</a>
+                            <a class="block" href="/yoga-para-embarazadas">Yoga para embarazadas</a>
+                            <a class="block" href="/yoga-postnatal">Yoga postnatal</a>
+                        </div>
+                    </div>
+                    <a class="headerItems" href="/psiconutricion">Psiconutricion</a>
+                    <a class="headerItems" href="/psicologia">Psicologia</a>
+                </div>
+                <div class="secondary">
+                    <a href="https://www.instagram.com/mes_millor/" target="_blank"><button class="instagramButton" type="submit">
+                        <img src="../static/images/instagram2.png" alt="Instagram">
+                        <text>INSTAGRAM</text>
+                    </button></a>
+                    <div class="lenguages">
+                        <button class="esp"></button>
+                        <button class="cat"></button>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <span class="menu-icon">+</span>
+                    <div class="dropdown-content">
+                        <a class="block" href="/">Inicio</a>
+                        <a class="block" href="/clases-de-yoga">Clases de Yoga</a>
+                        <a class="block" href="/yoga-para-embarazadas">Yoga para embarazadas</a>
+                        <a class="block" href="/yoga-postnatal">Yoga postnatal</a>
+                        <a class="block" href="/psiconutricion">Psiconutrición</a>
+                        <a class="block" href="/psicologia">Psicología</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        
+    <div class="content">
+        <section class="section-como-funciona">
+            <div class="clases-yoga">
+                <h1 class="h1">Classes de Ioga</h1>
+                <div class="como-funciona-texto">
+                    <p class="p-negro">A la pràctica de ioga, profunditzem en el cos amb amabilitat, trobant els <strong>moviments orgànics</strong> que ens permeten moure’ns amb fluïdesa. <strong>Alliberem el cos</strong> de la tensió, de càrregues, d’exigències i li permetem obrir-se amb confiança.</p>
+                    <p class="p-negro">La practica de ioga ajuda a viure en calma i evitar l’ansietat, silenciar la teva ment i trobar l’equilibri. Tenir més foco i concentració per a dirigir la teva energia cap a allò que és important per a tu.</p>
+                </div>
+                <img id="clasesYoga" src="../static/images/yoga.png">
+            </div>
+        </section>
+        <section class="section-como-funciona">
+            <div class="clases-yoga">
+                <h1 class="h1">Classes de ioga a La Sagrera</h1>
+                <div class="como-funciona-texto">
+                    <p class="p-negro">Comencem a practicar ioga per cuidar el cos i ens quedem per tot el que descobrim que ens aporta.</p>
+                    <p class="p-negro">Més enllà de practicar postures, intentem transmetre i integrar el ioga com a filosofia de vida. Apropar-nos a la vida amb una mirada més conscient i respectuosa.</p>
+                    <p>Fluïr amb la respiració, amb el moviment, el canvi i la quietud. Observar amb més atenció i escolta, ser més disciplinades, compassives i tractar-nos millor.</p>
+                    <p>L’objectiu de treballar la flexibilitat, força, equilibrio a les àssanes, a més de millorar l’estat físic, és que pugui traslladar-se fora del mat, en el pla mental i emocional, per tal que puguis millorar la teva capacitat d’adaptar-te i entendre altres perspectives, millorar la teva resiliència davant de situacions difícils i buscar l’equilibri a la vida.</p>
+                    <div class="horaris">
+                        <h3 class="h3-intro-home .h3-horaris">HORARIS</h3>
+                        <table>
+                            <tbody>
+                                <tr class="left">
+                                    <td class="p-azul bold"><img class="iconos-dia-hora" src="../static/images/dia.png">Dies</td>
+                                    <td class="p-azul bold"><img class="iconos-dia-hora" src="../static/images/hora.png">Hora</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-gris">Dilluns</td>
+                                    <td class="p-gris">09:30h / 18:00h / 19:30h</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-gris">Dimarts</td>
+                                    <td class="p-gris">09:30 / 14:30 / 17:30 / 19:30</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-gris">Dimecres</td>
+                                    <td class="p-gris">19:30</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-gris">Dijous</td>
+                                    <td class="p-gris">09:30 / 18:00 / 19:30</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-gris">Divendres</td>
+                                    <td class="p-gris">07:30 / 9:30</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <text class="nota-al-pie">*Pots apuntar-te en qualsevol moment del mes</text><br>
+                        <button type="submit" class="no-button mb3">SENSE MATRICULA</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-como-funciona">
+            <div class="clases-yoga">
+                <h2 class="h2-intro-home ml4">Ioga per a principiants- Preguntes Freqüents</h2>
+                <h3 class="h3-intro-home ml4">No he practicat mai ioga i no tinc cap flexibilitat. Puc apuntar-me a les vostres classes?</h3>
+                <div class="como-funciona-texto">
+                    <p class="p-negro">Sí, no necessites haver practicat ioga abans per venir a les classes. Si no tens flexibilitat, practicar ioga t’anirà molt bé. Els músculs necessiten moure’s, estirar-se i destensar-se.  Aniràs guanyant flexibilitat amb la pràctica. Oferim classes de diferentes intensitats per tal que cada persona pugui practicar, independentment de la seva edat, condició o experiència. Si no saps quin grup t’aniria millor, pregunta’ns.</p>
+                    <h3>Què necessito fer per apuntar-me?</h4>
+                    <p class="p-negro">Si ja tens clar que vols començar, pots apuntar-te desde <a class="in-text-a" href="http://www.bookeo.com/mesmillor/signup" target="_blank">bookeo</a> i comprar un pack de classes mensual, trimestral, pack de 10 classes o classes soltes. <br>Sempre pots reservar des d’<a class="in-text-a" href="https://bookeo.com/mesmillor/customer" target="_blank">aquí</a>. <br>Si vols fer una classe de prova, també pots apuntar-te desde <a class="in-text-a" href="http://www.bookeo.com/mesmillor/signup" target="_blank">bookeo</a>.</p>
+                    <h3>Practicar ioga em pot ajudar a reduir l’ansietat?</h4>
+                    <p class="p-negro">La pràctica de ioga i la meditació són algunes de les millors activitats que pots fer per reduir l’estrés i l’ansietat. Aquestes tècniques porten segles utilitzant-se a orient i a occident comencen a ser implementades com a part de teràpies psicològiques, per tots els beneficis que aporten.</p>
+                    <h3>Puc practicar ioga si pateixo alguna lesió?</h4>
+                    <p class=" p-negro">La majoria de vegades sí. Si no ho tens clar pregunta’ns.<br>Moltes persones que pateixen dolors d’esquena, lumbalgia, fibromialgia i altres, practiquen ioga per reduiïr els dolors.<br>Enfortir els músculs de l’esquena, cames, braços i lubricar les articulacions és essencial per millorar l’estat de salut.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-primary">
+            <!-- <div class="logo-p"> -->
+                <a href="/"><img class="logo" src="../static/images/Logo-Mes-Millor.png" alt="Logo Mes Millor"></a>
+            <!-- </div> -->
+            <div class="footer-descripcion">
+                <h4>Més Millor</h4>
+                <p>Centro de yoga, psiconutrición y psicología en la Sagrera, Barcelona. Espacio de crecimiento y desarrollo personal. Actividades orientadas a mantener el equilibrio físico, mental y psciológico.</p>
+                <p>Clases de yoga en Barcelona · Psicología · Psiconutrición · Yoga para embarazadas en Barcelona · Grupos de embarazo y posparto Barcelona· Yoga posnatal con bebés Barcelona · Acompañamiento maternidad Barcelona</p>
+            </div>
+            <div class="footer-contacto">
+                <h4>Contacto</h4>
+                <div class="contacto-info">
+                    <p>  EMAIL</p>
+                    <p>  TELEFONO</p>
+                    <p>  DIRECCION</p>
+                    <a target="_blank" href="https://www.instagram.com/mes_millor/">
+                        <button type="submit">
+                            <img src="../static/images/instagram.png" alt="Instagram">
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-lenguages">
+            <button class="esp"></button>
+            <button class="cat"></button>
+        </div>
+    </footer>
+</body>
+</html>

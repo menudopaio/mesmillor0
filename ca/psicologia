@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="3"> -->
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <!-- <link rel="stylesheet" href="static/styles.css"> -->
+     <!-- ___ --> 
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="desktop">
+                <div class="logo">
+                    <a href="/"><img class="header-logo" src="../static/images/Logo-Mes-Millor.png" alt="Logo Mes Millor"></a>
+                </div>
+                <div class="primary">
+                    <a class="headerItems" href="/es/">Inicio</a>
+                    <div class="dropdown">
+                        <a class="headerItems">Yoga</a>
+                        <div class="dropdown-content">
+                            <a class="block" href="/clases-de-yoga">Clases de Yoga</a>
+                            <a class="block" href="/yoga-para-embarazadas">Yoga para embarazadas</a>
+                            <a class="block" href="/yoga-postnatal">Yoga postnatal</a>
+                        </div>
+                    </div>
+                    <a class="headerItems" href="/psiconutricion">Psiconutricion</a>
+                    <a class="headerItems" href="/psicologia">Psicologia</a>
+                </div>
+                <div class="secondary">
+                    <a href="https://www.instagram.com/mes_millor/" target="_blank"><button class="instagramButton" type="submit">
+                        <img src="../static/images/instagram2.png" alt="Instagram">
+                        <text>INSTAGRAM</text>
+                    </button></a>
+                    <div class="lenguages">
+                        <button class="esp"></button>
+                        <button class="cat"></button>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <span class="menu-icon">+</span>
+                    <div class="dropdown-content">
+                        <a class="block" href="/">Inicio</a>
+                        <a class="block" href="/clases-de-yoga">Clases de Yoga</a>
+                        <a class="block" href="/yoga-para-embarazadas">Yoga para embarazadas</a>
+                        <a class="block" href="/yoga-postnatal">Yoga postnatal</a>
+                        <a class="block" href="/psiconutricion">Psiconutrición</a>
+                        <a class="block" href="/psicologia">Psicología</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        
+    <div class="content">
+        <!-- AQUI TODO EL CUERPO DE LA PAGINA -->
+        <section class="sobre-mes-millor">
+            <article class="text-section">
+                <h2 class="h2-intro-home">PSICOLOGIA</h2>
+                <div class="psiconutricion-intro-text">
+                    <h3 class="h3-intro-home">SALUT EMOCIONAL</h3>
+                    <p class="p-gris">Quan vivim sense acceptar les emocions i situacions que ens produeixen malestar, aquestes es fan cada vegada més fortes i les vivim cada vegada amb més intensitat.</p>
+                    <p class="p-gris">Educar les emocions és deixar de reprimir-les, permetre-les ser i acceptar-les. És així com podem millorar la forma de tractar-nos a nosaltres i a les altres persones.</p>
+                </div>
+            </article>
+            <div class="images-section">
+                <div class="image-section"></div>
+            </div>
+        </section>
+        <section class="todo-cambia">
+            <div class="todo-cambia1">
+                <text class="h2-intro-home">No pots caviar el món però pots canviar la forma d'entendre’l</text>
+            </div>
+            <span class="centrado"><img src="../static/images/rosa2.png" alt=""><img src="../static/images/rosa2.png" alt=""><img src="../static/images/rosa2.png" alt=""></span>
+            <div class="todo-cambia2">
+                <text class="h1-section-home">QUAN TU CANVIES,</text>
+                <text class="h1-section-home h1-amarillo">TOT CANVIA</text>
+            </div>
+        </section>
+        <section class="buscando-secciones">
+            <div class="cada-buscando-seccion">
+                <img id="buscando1" src="../static/images/yoga.png" alt="">
+            </div>
+            <div class="cada-buscando-seccion">
+                <img id="buscando2" src="../static/images/yoga.png" alt="">
+            </div>
+            <div class="cada-buscando-seccion">
+                <img id="buscando3" src="../static/images/yoga.png" alt="">
+            </div>
+        </section>
+        <section class="dalai-lama">
+            <blockquote>
+                <p>"Tots volem ser feliços (...). Els majors obstacles per a la pau interna són les emocions pertorbadores com l'odi, l'aferrament, la por i la suspicàcia, mentre que l'amor i la compassió son les fonts de la pau i la felicitat."</p>
+                <footer>Dalai Lama</footer>
+            </blockquote>
+        </section>
+        <section class="alimentarnos-con-sentido">
+            <div class="titulo-alimentarnos-sentido">
+                <h2 class="tas h2-intro-home mt3">Benestar Psicològic</h2>
+                <h1 class="tas h1-amarillo">Suport a la salut mental i emocional</h1>
+            </div>
+            <div class="momento-texto2">
+                <p class="p-negro">La salut emocional es relaciona amb el benestar psicològic i amb un <strong>estat intern d’equilibri.</strong><br>
+                    Dit d’una altra manera, hi ha <strong>consonància entre el que sents i el que fas.</strong> Entre qui ets i qui vols ser.<br>
+                    Et relaciones de manera positiva amb el teu món intern i extern.</p>
+                <p class="p-negro">En temps de canvi, d’incertesa o crisi, aquesta estabilitat pot trencar-se.<br>
+                <strong>Totes les persones passem per moments de desequilibri i és habitual sentir falta de control, fragilitat o incapacitar per resoldre la situació.</strong> Altres dificultats que pots experimentar són:<br>
+                    <ul>
+                        <li class="p-negro">Falta de confiança, autoconcepte baix o autoestima baixa</li>
+                        <li class="p-negro">Falta de motivació, apatia i desinterès</li>
+                        <li class="p-negro">Autocrítica i autoexigència excessives</li>
+                        <li class="p-negro">Falta de focus i incapacitar per a prioritzar</li>
+                    </ul>
+                    <text class="p-negro">Si et trobes en aquest moment i necessites suport emocional, posa’t en contacte amb nosaltres i concertarem una visita amb la nostra psicòloga.</text>
+                </p>
+                <button type="submit" class="no-button">CONSULTA LES TARIFES</button>
+            </div>
+        </section>
+    </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-primary">
+            <!-- <div class="logo-p"> -->
+                <a href="/"><img class="logo" src="../static/images/Logo-Mes-Millor.png" alt="Logo Mes Millor"></a>
+            <!-- </div> -->
+            <div class="footer-descripcion">
+                <h4>Més Millor</h4>
+                <p>Centro de yoga, psiconutrición y psicología en la Sagrera, Barcelona. Espacio de crecimiento y desarrollo personal. Actividades orientadas a mantener el equilibrio físico, mental y psciológico.</p>
+                <p>Clases de yoga en Barcelona · Psicología · Psiconutrición · Yoga para embarazadas en Barcelona · Grupos de embarazo y posparto Barcelona· Yoga posnatal con bebés Barcelona · Acompañamiento maternidad Barcelona</p>
+            </div>
+            <div class="footer-contacto">
+                <h4>Contacto</h4>
+                <div class="contacto-info">
+                    <p>  EMAIL</p>
+                    <p>  TELEFONO</p>
+                    <p>  DIRECCION</p>
+                    <a target="_blank" href="https://www.instagram.com/mes_millor/">
+                        <button type="submit">
+                            <img src="../static/images/instagram.png" alt="Instagram">
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-lenguages">
+            <button class="esp"></button>
+            <button class="cat"></button>
+        </div>
+    </footer>
+</body>
+</html>

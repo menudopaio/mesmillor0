@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="3"> -->
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <!-- <link rel="stylesheet" href="static/styles.css"> -->
+     <!-- ___ --> 
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="desktop">
+                <div class="logo">
+                    <a href="/"><img class="header-logo" src="../static/images/Logo-Mes-Millor.png" alt="Logo Mes Millor"></a>
+                </div>
+                <div class="primary">
+                    <a class="headerItems" href="/es/">Inicio</a>
+                    <div class="dropdown">
+                        <a class="headerItems">Yoga</a>
+                        <div class="dropdown-content">
+                            <a class="block" href="/clases-de-yoga">Clases de Yoga</a>
+                            <a class="block" href="/yoga-para-embarazadas">Yoga para embarazadas</a>
+                            <a class="block" href="/yoga-postnatal">Yoga postnatal</a>
+                        </div>
+                    </div>
+                    <a class="headerItems" href="/psiconutricion">Psiconutricion</a>
+                    <a class="headerItems" href="/psicologia">Psicologia</a>
+                </div>
+                <div class="secondary">
+                    <a href="https://www.instagram.com/mes_millor/" target="_blank"><button class="instagramButton" type="submit">
+                        <img src="../static/images/instagram2.png" alt="Instagram">
+                        <text>INSTAGRAM</text>
+                    </button></a>
+                    <div class="lenguages">
+                        <button class="esp"></button>
+                        <button class="cat"></button>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <span class="menu-icon">+</span>
+                    <div class="dropdown-content">
+                        <a class="block" href="/">Inicio</a>
+                        <a class="block" href="/clases-de-yoga">Clases de Yoga</a>
+                        <a class="block" href="/yoga-para-embarazadas">Yoga para embarazadas</a>
+                        <a class="block" href="/yoga-postnatal">Yoga postnatal</a>
+                        <a class="block" href="/psiconutricion">Psiconutrición</a>
+                        <a class="block" href="/psicologia">Psicología</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        
+    <div class="content">
+        <!-- AQUI TODO EL CUERPO DE LA PAGINA -->
+        <section class="sobre-mes-millor">
+            <article class="text-section">
+                <h2 class="h2-intro-home">PSICONUTRICIÓN</h2>
+                <div class="psiconutricion-intro-text">
+                    <h3 class="h3-intro-home">Psicología de la alimentación</h3>
+                    <p class="p-gris">Nos alimentamos de comida, de experiencias y de emociones.</p>
+                    <p class="p-gris">Comer con ansiedad tiene que ver con lo que pensamos, cómo gestionamos lo que sentimos, y nuestra capacidad para poner límites.</p>
+                </div>
+            </article>
+            <div class="images-section">
+                <div class="image-section2"></div>
+            </div>
+        </section>
+        <section class="momento-texto2">
+            <h2 class="h2-intro-home">(re)aprender a comer</h2>
+            <p class="p-negro"><strong>Comemos para llenar el estómago pero también para llenar los sentidos, la mente y el corazón.</strong></p>
+            <p class="p-negro">De pequeños dejamos de comer cuando ya no tenemos hambre. Nos quedamos satisfechos. <strong>¿Qué nos pasa cuando crecemos que estamos siempre insatisfechos aunque no estemos hambrientos?</strong> Crecemos con premios, castigos,  mensajes de ‘acábate todo el plato’, o el chantaje emocional de culpabilidad sobre la falta de comida a otras partes del mundo. Desarrollamos relaciones de amor-odio con la comida, hacemos aprendizajes poco saludables y aunque veamos la comida como un placer, no logramos quedarnos satisfechos con la comida. <strong>Comemos por aburrimiento, tristeza, ansiedad o para acompañar cualquier celebración.</strong> </p>
+            <p class="p-negro"><strong>La relación con la comida tiene que ver con la relación contigo mismo y la capacidad que tienes para poner límites.</strong></p>
+            <p class="p-negro">Cómo te miras, como te ves, como te tratas, como te hablas, como vives las experiencias, como te niegas el placer o el amor, como pones (o no) límites a otras personas, como te permites sentir, como gestionas las contradicciones.</p>
+            <p class="p-negro">Por qué cuando estoy triste quiero comer azúcares o grasas? Las decisiones poco saludables en estados emocionales intensos responden a <strong>alteraciones a la microbiota</strong>, que desencadena otros problemas como <strong>impulsividad, desregulación del hambre, problemas para dormir y ansiedad</strong>, entre otras, y <strong>desequilibrios glucémicos</strong>, que básicamente hacen <strong>que tu cuerpo te pida ansiosamente comida hipercalórica y alta en azúcares.</strong></p>
+            <p class="p-negro">La alimentación tiene mucho que ver con otros hábitos de vida, como el ejercicio físico, los ciclos del sueño, las relaciones personales y la gestión de las emociones y es necesario abordar la alimentación de la mano otros hábitos. Trabajamos bi-direccionalmente desde la psicología y la nutrición para sustituir hábitos de alimentación y de vida poco saludables por hábitos más positivos.</p>
+        </section>
+        <section class="sobre-mes-millor smm2">
+            <div class="images-section smm2-hijo1">
+                <div class="image-section3"></div>
+            </div>
+            <article class="text-section ts2 smm2-hijo2">
+                <h2 class="h2-intro-home">¿Cómo te puedo ayudar a perder peso?</h2>
+                <ul>
+                    <li class="p-negro">Identificando y modificando los comportamientos que te impiden comer saludable</li>
+                    <li class="p-negro">Reeducando las sensaciones fisiológicas de hambre y saciedad</li>
+                    <li class="p-negro">Trabajando la fuerza de voluntad, la determinación y la constancia</li>
+                    <li class="p-negro">Controlando la ansiedad por la comida y disfrutando de la comida sin culpa</li>
+                    <li class="p-negro">Poniendo en práctica la alimentación consciente</li>
+                </ul>
+            </article>
+        </section>
+        <section class="section-como-funciona">
+            <div class="como-funciona">
+                <h2 class="h2-intro-home">¿Cómo funciona el programa de PSICONUTRICIÓN?</h2>
+                <div class="como-funciona-texto">
+                    <p class="p-gris"><strong>Comenzamos a trabajar desde la primera sesión. Hacemos una valoración de tu estado físico y qué experiencia tienes con la comida, qué te preocupa o qué problema sientes.</strong></p>
+                    <p class="p-gris">Después de esta primera sesión, <strong>trazo una propuesta personalizada. Esto incluye en la mayoría de casos un plan nutricional y psicológico.</strong> Voy a acompañarte durante este proceso.</p>
+                    <p class="p-gris">Entre nuestros objetivos está que logres <strong>relacionarte positivamente con la comida</strong> y que <strong>cambies de hábitos</strong>, tanto en alimentación como en lo que a patrones psicológicos tiene que ver. Que tengas un peso en el que te sientas saludable.</p>
+                    <p class="p-gris">No creemos en dietas milagro ni en la restricción de alimentos. Proponemos dietas variadas, equilibradas y buenas. Enseñamos a comer con cabeza y con placer, re-aprender a alimentarnos y nutrirnos y gestionar las emociones y estados anímicos que influyen directamente con la comida.</p>
+                </div>
+            </div>
+        </section>
+        <section class="alimentarnos-con-sentido">
+            <div class="titulo-alimentarnos-sentido">
+                <h2 class="tas h2-intro-home mt3">Alimentarnos con</h2>
+                <h1 class="tas h1-amarillo">SENTIDO Y CONCIENCIA</h1>
+                <span class="tas"><img src="../static/images/rosa2.png" alt=""><img src="../static/images/rosa2.png" alt=""><img src="../static/images/rosa2.png" alt=""></span>
+            </div>
+            <div class="buscando-secciones2">
+                <div class="cada-buscando-seccion">
+                    <img id="buscando1" src="../static/images/yoga.png" alt="1">
+                </div>
+                <div class="cada-buscando-seccion">
+                    <img id="buscando1" src="../static/images/yoga.png" alt="2">
+                </div>
+                <div class="cada-buscando-seccion">
+                    <img id="buscando1" src="../static/images/yoga.png" alt="3">
+                </div>
+            </div>
+            
+            <div class="momento-texto2">
+                <p class="p-negro">Alimentarse conscientemente es observar con atención el proceso de alimentación. Escoger qué consumes, cómo lo tratas y qué sensaciones te ofrece. Observar que efecto tienen los alimentos en tu cuerpo y también escuchar los pensamientos y emociones que te vienen al comer. Tomar conciencia de cómo comes.</p>
+                <p class="p-negro">¿Por qué seleccionas unos y no otros alimentos? ¿Qué emociones asocias con comer? ¿Qué haces mientras comes? ¿Comes cuando tienes hambre o cuando buscas una satisfacción?</p>
+                <p class="p-negro">El cuerpo y el cerebro piden comida para funcionar. Cada persona necesita comer diferente, porque cada cuerpo metaboliza diferente los alimentos y cada cerebro funciona diferente. Consumimos todo lo que percibimos del mundo: sensaciones, experiencias y relaciones.</p>
+                <p class="p-negro">La ansiedad por la comida aparece cuando vivimos con niveles altos de ansiedad y hemos aprendido que la comida es una recompensa. El cerebro que sufre estrés pide grasa de forma natural. Debemos trabajar desde la psicología en el control de los estados emocionales y desde la nutrición para encontrar las alternativas más saludables.</p>
+                <p class="p-negro">Relacionarnos de forma positiva con la comida nos permite vivir más plenamente y disfrutar de la alimentación sin sufrimiento. Alimentarnos más conscientemente nos ayuda a valorar más positivamente las cosas bonitas de nuestra vida y a tratarnos con más cariño.</p>
+                <p class="p-negro">En Més Millor te ofrecemos un programa de psiconutrición totalmente personalizado a tus necesidades.</p>
+            </div>
+        </section>
+    </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-primary">
+            <!-- <div class="logo-p"> -->
+                <a href="/"><img class="logo" src="../static/images/Logo-Mes-Millor.png" alt="Logo Mes Millor"></a>
+            <!-- </div> -->
+            <div class="footer-descripcion">
+                <h4>Més Millor</h4>
+                <p>Centro de yoga, psiconutrición y psicología en la Sagrera, Barcelona. Espacio de crecimiento y desarrollo personal. Actividades orientadas a mantener el equilibrio físico, mental y psciológico.</p>
+                <p>Clases de yoga en Barcelona · Psicología · Psiconutrición · Yoga para embarazadas en Barcelona · Grupos de embarazo y posparto Barcelona· Yoga posnatal con bebés Barcelona · Acompañamiento maternidad Barcelona</p>
+            </div>
+            <div class="footer-contacto">
+                <h4>Contacto</h4>
+                <div class="contacto-info">
+                    <p>  EMAIL</p>
+                    <p>  TELEFONO</p>
+                    <p>  DIRECCION</p>
+                    <a target="_blank" href="https://www.instagram.com/mes_millor/">
+                        <button type="submit">
+                            <img src="../static/images/instagram.png" alt="Instagram">
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-lenguages">
+            <button class="esp"></button>
+            <button class="cat"></button>
+        </div>
+    </footer>
+</body>
+</html>
