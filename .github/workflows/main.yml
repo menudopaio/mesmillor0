@@ -4,8 +4,11 @@ on:
   push:
     branches:
       - main
+      - prueba
+      - firstTry
+      
   workflow_dispatch:
-    
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
