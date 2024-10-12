@@ -1,4 +1,5 @@
 import sys
+import os
 from flask import Flask, redirect, render_template, request, session
 from flask_session import Session
 from flask_frozen import Freezer
@@ -29,6 +30,7 @@ HEADERiTEMS = [
     "Psiconutrición",
     "Psicologia"
 ]
+baseUri = ""
 
 @app.route("/")
 def home0():
@@ -36,11 +38,16 @@ def home0():
 # HOME PAGE
 @app.route("/es/")
 def home():
-    return render_template ("home-esp2.html")
+    # Verificar el entorno de ejecución
+    entorno = os.getenv('FLASK_ENV', 'local')  # Por defecto, se considera "local"
 
-""" @app.route("/ca/")
-def homeCat():
-    return render_template ("home-cat.html") """
+    if entorno == 'github':
+        baseUri = ""
+    else:
+        baseUri = "."
+
+    return render_template ("home-esp2.html", baseUri=baseUri)
+
 
 # PSICONUTRICION
 @app.route("/es/psiconutricion")
