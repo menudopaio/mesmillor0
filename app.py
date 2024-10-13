@@ -32,6 +32,7 @@ HEADERiTEMS = [
 ]
 # "" Para github, "." para local
 baseUri = ""
+baseUrl = "menudopaio.github.io/mesmillor0"
 
 
 @app.route("/")
@@ -40,17 +41,14 @@ def home0():
 # HOME PAGE
 @app.route("/es/")
 def home():
-    baseUrl = request.host_url  # Devuelve algo como 'http://localhost:5000/'
     return render_template ("index.html", baseUri=baseUri, baseUrl=baseUrl)
 # LO QUE NOS IMPORTA
 @app.route("/es/sobre-mes-millor")
 def sobreMesMillor():
-    baseUrl = request.host_url  # Devuelve algo como 'http://localhost:5000/'
     return render_template ("sobreMesMillor-es.html", baseUri=baseUri, baseUrl=baseUrl)
 # PSICONUTRICION
 @app.route("/es/psiconutricion")
 def psiconutricion():
-    baseUrl = request.host_url  # Devuelve algo como 'http://localhost:5000/'
     return render_template("psiconutricion-esp.html", baseUri=baseUri, baseUrl=baseUrl)
 
 # PSICOLOGIA
