@@ -39,7 +39,7 @@ def home0():
 # HOME PAGE
 @app.route("/es/")
 def home():
-    return render_template ("home-esp2.html", baseUri=baseUri)
+    return render_template ("index.html", baseUri=baseUri)
 # LO QUE NOS IMPORTA
 @app.route("/es/sobre-mes-millor")
 def sobreMesMillor():
