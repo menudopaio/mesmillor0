@@ -46,7 +46,7 @@ def home():
 def sobreMesMillor():
     return render_template ("sobreMesMillor-es.html", baseUri=baseUri)
 # PSICONUTRICION
-@app.route("/psiconutricion")
+@app.route("/psiconutricion/")
 def psiconutricion():
     return render_template("psiconutricion-esp.html", baseUri=baseUri)
 
