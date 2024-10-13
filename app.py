@@ -34,19 +34,19 @@ HEADERiTEMS = [
 baseUri = ""
 
 
-@app.route("/")
+""" @app.route("/")
 def home0():
-    return redirect ("/es/")
+    return redirect ("/es/") """
 # HOME PAGE
-@app.route("/es/")
+@app.route("/")
 def home():
     return render_template ("index.html", baseUri=baseUri)
 # LO QUE NOS IMPORTA
-@app.route("/es/sobre-mes-millor")
+@app.route("/sobre-mes-millor")
 def sobreMesMillor():
     return render_template ("sobreMesMillor-es.html", baseUri=baseUri)
 # PSICONUTRICION
-@app.route("/es/psiconutricion")
+@app.route("/psiconutricion")
 def psiconutricion():
     return render_template("psiconutricion-esp.html", baseUri=baseUri)
 
