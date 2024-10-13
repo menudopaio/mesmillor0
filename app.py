@@ -44,10 +44,12 @@ def home():
 # LO QUE NOS IMPORTA
 @app.route("/sobre-mes-millor/")
 def sobreMesMillor():
+    baseUri = baseUri + "."
     return render_template ("sobreMesMillor-es.html", baseUri=baseUri)
 # PSICONUTRICION
 @app.route("/psiconutricion/")
 def psiconutricion():
+    baseUri = baseUri + "."
     return render_template("psiconutricion-esp.html", baseUri=baseUri)
 
 # PSICOLOGIA
