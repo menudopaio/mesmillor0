@@ -314,6 +314,9 @@ body {
     margin: 10px 20px 10px;
     text-align: center;
 }
+.texto-inicio p {
+    margin-bottom: 8px;
+}
 .box {
     padding: 20px;
     box-sizing: border-box;
