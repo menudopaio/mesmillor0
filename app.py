@@ -42,7 +42,7 @@ def home0():
 def home():
     return render_template ("index.html", baseUri=baseUri)
 # LO QUE NOS IMPORTA
-@app.route("/sobre-mes-millor")
+@app.route("/sobre-mes-millor/")
 def sobreMesMillor():
     return render_template ("sobreMesMillor-es.html", baseUri=baseUri)
 # PSICONUTRICION
