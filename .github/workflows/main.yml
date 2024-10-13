@@ -6,6 +6,7 @@ on:
       - firstTry
       - prueba
       - main
+      - daError
   workflow_dispatch:
 
 jobs:
