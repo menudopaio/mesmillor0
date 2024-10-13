@@ -292,7 +292,6 @@ body {
     font-weight: var(--mes-millor-inicio-font-weight);
     letter-spacing: var(--mes-millor-inicio-letter-spacing);
 }
-
 .main-content .hero p {
     margin-bottom: 20px;
     color: var(--corp-clr-secondary);
