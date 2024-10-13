@@ -33,21 +33,25 @@ HEADERiTEMS = [
 # "" Para github, "." para local
 baseUri = ""
 
+
 @app.route("/")
 def home0():
     return redirect ("/es/")
 # HOME PAGE
 @app.route("/es/")
 def home():
-    return render_template ("home-esp2.html", baseUri=baseUri)
+    baseUrl = request.host_url  # Devuelve algo como 'http://localhost:5000/'
+    return render_template ("index.html", baseUri=baseUri, baseUrl=baseUrl)
 # LO QUE NOS IMPORTA
 @app.route("/es/sobre-mes-millor")
 def sobreMesMillor():
-    return render_template ("sobreMesMillor-es.html", baseUri=baseUri)
+    baseUrl = request.host_url  # Devuelve algo como 'http://localhost:5000/'
+    return render_template ("sobreMesMillor-es.html", baseUri=baseUri, baseUrl=baseUrl)
 # PSICONUTRICION
 @app.route("/es/psiconutricion")
 def psiconutricion():
-    return render_template("psiconutricion-esp.html", baseUri=baseUri)
+    baseUrl = request.host_url  # Devuelve algo como 'http://localhost:5000/'
+    return render_template("psiconutricion-esp.html", baseUri=baseUri, baseUrl=baseUrl)
 
 # PSICOLOGIA
 @app.route("/ca/psicologia")
