@@ -30,26 +30,21 @@ HEADERiTEMS = [
     "Psiconutrición",
     "Psicologia"
 ]
-# "" Para github, "." para local
-baseUri = ""
-
-
-""" @app.route("/")
-def home0():
-    return redirect ("/es/") """
+# baseUri se redefine para satisfacer a github-pages. Quizas en el host final hay que cambiarlo
 # HOME PAGE
 @app.route("/")
 def home():
+    baseUri = ""
     return render_template ("index.html", baseUri=baseUri)
 # LO QUE NOS IMPORTA
 @app.route("/sobre-mes-millor/")
 def sobreMesMillor():
-    baseUri = baseUri + "."
+    baseUri = "."
     return render_template ("sobreMesMillor-es.html", baseUri=baseUri)
 # PSICONUTRICION
 @app.route("/psiconutricion/")
 def psiconutricion():
-    baseUri = baseUri + "."
+    baseUri = "."
     return render_template("psiconutricion-esp.html", baseUri=baseUri)
 
 # PSICOLOGIA
