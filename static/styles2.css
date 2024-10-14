@@ -418,6 +418,67 @@ body {
     scale: 1.05;
 }
 
+
+
+/* PSICONUTRICION */
+.psiconutricion {
+    width: 82%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.tresTitulos {
+    text-align: left;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.psiconutricion .tresTitulos h4, .psiconutricion .tresTitulos h2, .psiconutricion .tresTitulos p {
+    margin-bottom: 15px;
+}
+.psiconutricion .tresTitulos h2 {
+    color: var(--title-color);
+    font-family: var(--title-font-family);
+    font-size: var(--title-font-size);
+    font-weight: var(--title-font-weigth);
+    letter-spacing: var(--title-letter-spacing);
+    line-height: var(--title-line-height);
+}
+.psiconutricion .tresTitulos p {
+    width: 94%;
+    color: #949494;
+    font-family: var(--subtitle-font-family);
+    font-size: 24px;
+    font-weight: var(--subtitle-font-weigth);
+    letter-spacing: var(--subtitle-letter-spacing);
+    line-height: var(--subtitle-line-height);
+}
+.psiconutricion .tresTitulos div {
+    height: 1px;
+    width: 60%;
+    margin: 25px auto;
+    border: none;
+    background-color: var(--corp-clr-terciary);
+    transform: scaleY(0.85);
+}
+.psiconutricion .imagenTexto {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+.psiconutricion .imagenTexto img {
+    transform: rotate(90deg);
+    margin: 20px auto 20px 0;
+    width: 50%;
+    object-fit: cover;
+}
+.psiconutricion .imagenTexto .texto {
+    border: 1px solid red;
+}
+
 /* FOOTER */
 footer {
     background-color: var(--clr-primary-light);
