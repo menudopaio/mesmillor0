@@ -453,10 +453,10 @@ body {
     justify-content: center;
     align-items: center;
 }
-.psiconutricion .tresTitulos h4, .psiconutricion .tresTitulos h2, .psiconutricion .tresTitulos p {
+.tresTitulos h4, .psiconutricion .tresTitulos h2, .psiconutricion .tresTitulos p {
     margin-bottom: 15px;
 }
-.psiconutricion .tresTitulos h2 {
+.tresTitulos h2 {
     color: var(--title-color);
     font-family: var(--title-font-family);
     font-size: var(--title-font-size);
@@ -464,7 +464,7 @@ body {
     letter-spacing: var(--title-letter-spacing);
     line-height: var(--title-line-height);
 }
-.psiconutricion .tresTitulos p {
+.tresTitulos p {
     width: 94%;
     color: #949494;
     font-family: var(--subtitle-font-family);
@@ -554,6 +554,15 @@ body {
     color: var(--corp-clr-secondary);
     text-decoration: none;
 }
+
+
+/* CLASES DE YOGA */
+.clasesYoga {
+    padding: 60px 100px;
+}
+
+
+
 
 /* FOOTER */
 footer {
