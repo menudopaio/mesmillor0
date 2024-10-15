@@ -707,7 +707,6 @@ footer .footer-primary a button:hover {
         border: 1px dotted var(--corp-clr-terciary);
         color: var(--clr-joker-dark);
         text-decoration: none;
-
     }
     .secondary .dropdown a span {
         position: relative;
