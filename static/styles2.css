@@ -357,11 +357,18 @@ body {
     justify-content: center;
     align-items: center;
 }
+.estoy-buscando-content a {
+    text-decoration: none;
+    color: var(--corp-clr-primary);
+}
 .imgnx {
-    width: 15em;
-    height: 15em;
-    border: 1px solid black;
-    margin: 8px auto;
+    width: 30%;
+    height: auto;
+    margin: 80px auto;
+}
+.imgnx img {
+    box-sizing: border-box;
+    width: 100%;
 }
 .subfoto {
     text-align: center;
