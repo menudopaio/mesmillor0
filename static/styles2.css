@@ -115,7 +115,7 @@ body {
 }
 
 .header .a-logo {
-    margin-left: 100px;
+    margin-left: 70px;
     width: 103px;
     height: 103px;
 }
@@ -345,6 +345,9 @@ body {
     flex-direction: column;
     width: 100%;
 }
+.estoy-buscando .titulos {
+    text-align: center;
+}
 .estoy-buscando-content {
     display: flex;
     flex-direction: row;
@@ -378,7 +381,6 @@ body {
     font-weight: var(--title-font-weigth);
     letter-spacing: var(--title-letter-spacing);
     line-height: var(--title-line-height);
-    text-align: center;
 }
 
 .subtitulos {
@@ -499,7 +501,7 @@ body {
     font-weight: var(--h4-font-weight);
     letter-spacing: var(--h4-letter-spacing);
 }
-.imagenTexto .texto p {
+.imagenTexto .texto p, .sobre-mes-millor-page ul li p {
     margin-bottom: 8px;
     text-align: left;
     color: var(--text-color);
@@ -525,6 +527,30 @@ body {
     height: auto;               /* Mantener la proporción de la imagen */
 }
 
+
+
+
+/* SOBRE MES MILLOR */
+.sobre-mes-millor-page {
+    padding: 60px 120px;
+}
+.sobre-mes-millor-page ul li {
+    list-style: none;
+}
+.sobre-mes-millor-page ul li p {
+    margin: 30px 0;
+}
+.sobre-mes-millor-page ul li p.titulito {
+    margin-top: 60px;
+}
+.sobre-mes-millor-page ul li ul li {
+    list-style: inside;
+    margin: 5px 20px;
+}
+.sobre-mes-millor-page ul li a {
+    color: var(--corp-clr-secondary);
+    text-decoration: none;
+}
 
 /* FOOTER */
 footer {
@@ -725,7 +751,7 @@ footer .footer-primary a button:hover {
     }
 
 
-
+    /* INICIO - SOBRE MES MILLOR */
     section.sobre-mes-millor {
         display: flex;
         flex-direction: column;
@@ -782,6 +808,12 @@ footer .footer-primary a button:hover {
         margin: 0;
         padding: 0;
     }
+
+
+    /* SOBRE MES MILLOR PAGINA */
+    .sobre-mes-millor-page {
+        padding: 30px 50px;
+    }
 }
 
 @media screen and (max-width: 756px) and (min-width: 200px) {
@@ -814,5 +846,10 @@ footer .footer-primary a button:hover {
     }
     footer .footer-primary .footer-contacto .contacto-info button {
         margin: 15px auto;
+    }
+
+    /* SOBRE MES MILLOR PAGINA */
+    .sobre-mes-millor-page {
+        padding: 20px 25px;
     }
 }
