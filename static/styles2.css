@@ -517,6 +517,7 @@ body {
     gap: 15px;
     width: 100%;                /* El contenedor ocupa el 100% del ancho */
     box-sizing: border-box;      /* Asegura que el padding y el borde se incluyan en el ancho */
+    margin: 60px 0 40px 0;
 }
 .tresFotos img {
     width: 30%;
