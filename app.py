@@ -53,28 +53,34 @@ def clasesYoga():
     baseUri = "."
     return render_template("clasesYoga.html", baseUri=baseUri)
 
+# Yoga para embarazadas
+@app.route("/yoga-para-embarazadas")
+def yogaEmbarazadas():
+    baseUri = "."
+    return render_template("yogaEmbarazadas.html", baseUri=baseUri)
+
+# Yoga postnatal
+@app.route("/yoga-postnatal")
+def yogaPostnatal():
+    baseUri = "."
+    return render_template("yogaPostnatal.html", baseUri=baseUri)
+
 # PSICOLOGIA
-@app.route("/ca/psicologia")
+@app.route("/psicologia")
 def psicologia():
     return render_template("psicologia-cat.html")
 
 
 
 
-""" # Yoga para embarazadas
-@app.route("/yoga-para-embarazadas")
-def yogaEmbarazadas():
-    return render_template("yogaEmbarazadas.html")
+""" 
 
 # Yoga infantil
 @app.route("/yoga-infantil")
 def yogaInfantil():
     return render_template("yogaInfantil.html")
 
-# Yoga postnatal
-@app.route("/yoga-postnatal")
-def yogaPostnatal():
-    return render_template("yogaPostnatal.html")
+
 
 # 404 NOT FOUND Entrena tu mente cuida tu cuerpo
 @app.route("/entrena-tu-mente-cuida-tu-cuerpo")
