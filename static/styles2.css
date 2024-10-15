@@ -60,7 +60,7 @@
 
     /* Texto general (actualmente en gris) */
     --text-color: var(--clr-dark-grey);
-    --text-font-family: Arial, Helvetica, sans-serif;
+    --text-font-family: "Poppins";
     --text-font-size: 18px;
     --text-font-weight: 200;
     --text-letter-spacing: 1px;
@@ -90,6 +90,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 /* Estilos generales */
@@ -188,9 +189,8 @@ body {
 /* Estilo de los elementos dentro del dropdown */
 .navbar ul li .dropdown li a, .secondary .dropdown a {
     display: block;
-    width: 100%;
     
-    padding: 10px 5px; /* Espacio interno */
+    padding: 10px; /* Espacio interno */
     color: var(--clr-dark-grey); /* Utiliza gris oscuro */
     text-decoration: none; 
     font-size: 18px;
@@ -283,20 +283,15 @@ body {
 /* SECCION PRINCIPAL */
 /* Hero */
 .hero {
-    padding: 60px 20px;
+    padding: 35px 20px;
     text-align: center;
 }
 
 .hero h1 {
-    margin-bottom: 20px;
-    color: var(--mes-millor-inicio-color);
-    font-family: var(--mes-millor-inicio-font-family);
-    font-size: var(--mes-millor-inicio-font-size);
-    font-weight: var(--mes-millor-inicio-font-weight);
-    letter-spacing: var(--mes-millor-inicio-letter-spacing);
+    color: white;
 }
 .main-content .hero p {
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     color: var(--corp-clr-secondary);
     font-family: var(--subtitle-font-family);
     font-size: var(--subtitle-font-size);
@@ -693,11 +688,8 @@ footer .footer-primary a button:hover {
         display: none;
     }
     #check:checked ~ .dropdown {
-        display: grid;
-        grid-template-columns: repeat(1, 4fr);
-        grid-template-rows: auto;
+        display: block;
         top: 100%;
-        right: auto;
         z-index: 100;
         padding: 0;
         margin: 0;
@@ -741,7 +733,6 @@ footer .footer-primary a button:hover {
         width: 100%;
         box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
         top: 100%;
-        left: 0;
         box-sizing: border-box;
     }
     
@@ -751,9 +742,6 @@ footer .footer-primary a button:hover {
         text-align: center;
         color: var(--clr-joker-dark);
         text-decoration: none;
-    }
-    .secondary .dropdown a span {
-        position: relative;
     }
     
 
@@ -778,12 +766,6 @@ footer .footer-primary a button:hover {
     }
     .hero {
         padding: 5px;
-    }
-    .hero h1 {
-        padding: 8px;
-        font-size: calc(var(--mes-millor-inicio-font-size) - 10px);
-        font-weight: calc(var(--mes-millor-inicio-font-weight) - 200);
-        letter-spacing: calc(var(--mes-millor-inicio-letter-spacing) - 0.2);
     }
     .main-content .hero p {
         margin-bottom: 5px;
