@@ -757,9 +757,11 @@ footer .footer-primary a button:hover {
     .psiconutricion {
         width: 89%;
     }
-    .separador-texto {
 
+    .tresTitulos {
+        text-align: center;
     }
+
     .imagenTexto, .tresFotos {
         flex-direction: column;
         width: 100%;
