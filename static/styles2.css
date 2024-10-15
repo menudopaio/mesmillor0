@@ -59,7 +59,7 @@
     --h4-letter-spacing: 1.4;
 
     /* Texto general (actualmente en gris) */
-    --text-color: rgb(87, 84, 84);
+    --text-color: rgb(84, 84, 84);
     --text-font-family: "Montserrat", sans-serif;
     --text-font-size: 16px;
     --text-font-weight: 400;
@@ -487,7 +487,7 @@ body {
     flex-direction: row;
     width: 100%;
     box-sizing: border-box;
-    margin: 10px 0;
+    margin: 30px 0;
 }
 .imagenTexto img {
     margin-right: auto;
@@ -561,8 +561,27 @@ body {
 .clasesYoga {
     padding: 60px 100px;
 }
-
-
+.clasesYoga .imagenTexto .texto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.clasesYoga .imagenTexto .texto ul li {
+    text-align: left;
+    margin-bottom: 20px;
+}
+.clasesYoga .imagenTexto .texto ul li p {
+    display: inline;
+    text-align: left;
+}
+.clasesYoga .imagenTexto .texto a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+.clasesYoga .imagenTexto .texto button {
+    text-align: center;
+}
 
 
 /* FOOTER */
@@ -808,6 +827,14 @@ footer .footer-primary a button:hover {
     /* SOBRE MES MILLOR PAGINA */
     .sobre-mes-millor-page {
         padding: 30px 50px;
+    }
+
+    /* CLASES DE YOGA */
+    .clasesYoga {
+        padding: 20px;
+    }
+    .clasesYoga .imagenTexto .texto ul li {
+        list-style: inside;
     }
 }
 
