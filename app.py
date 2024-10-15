@@ -47,16 +47,19 @@ def psiconutricion():
     baseUri = "."
     return render_template("psiconutricion-esp.html", baseUri=baseUri)
 
+# Clases de Yoga
+@app.route("/clases-de-yoga")
+def clasesYoga():
+    baseUri = "."
+    return render_template("clasesYoga.html", baseUri=baseUri)
+
 # PSICOLOGIA
 @app.route("/ca/psicologia")
 def psicologia():
     return render_template("psicologia-cat.html")
 
 
-# Clases de Yoga
-@app.route("/ca/clases-de-yoga")
-def clasesYoga():
-    return render_template("clasesYoga-cat.html")
+
 
 """ # Yoga para embarazadas
 @app.route("/yoga-para-embarazadas")
