@@ -489,6 +489,7 @@ body {
 }
 .imagenTexto .texto {
     margin-left: 60px;
+    width: 60%
 }
 .titulo-seccion {
     text-align: left;
@@ -760,10 +761,11 @@ footer .footer-primary a button:hover {
 
     }
     .imagenTexto, .tresFotos {
-        flex-direction: column !important;
+        flex-direction: column;
         width: 100%;
         text-align: center;
     }
+    .tresFotos { margin: 0; }
     .tresFotos img {
         width: 100%;
         height: auto;
