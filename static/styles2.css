@@ -283,7 +283,6 @@ body {
 /* SECCION PRINCIPAL */
 /* Hero */
 .hero {
-    background: var(--corp-clr-light);
     padding: 60px 20px;
     text-align: center;
 }
