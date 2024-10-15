@@ -182,11 +182,14 @@ body {
 /* Estilo de los elementos dentro del dropdown */
 .navbar ul li .dropdown li {
     width: 100%; /* Ancho fijo para el submenú */
+    margin-left: -8px;
 }
 
 /* Estilo de los elementos dentro del dropdown */
 .navbar ul li .dropdown li a, .secondary .dropdown a {
-    display: block; 
+    display: block;
+    width: 100%;
+    
     padding: 10px 5px; /* Espacio interno */
     color: var(--clr-dark-grey); /* Utiliza gris oscuro */
     text-decoration: none; 
