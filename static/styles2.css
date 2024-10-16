@@ -61,10 +61,10 @@
     /* Texto general (actualmente en gris) */
     --text-color: rgb(84, 84, 84);
     --text-font-family: "Montserrat", sans-serif;
-    --text-font-size: 16px;
-    --text-font-weight: 400;
+    --text-font-size: 15px;
+    --text-font-weight: 300;
     --text-letter-spacing: 1px;
-    --text-line-height: 1.5;
+    --text-line-height: 2;
 
     /* Botones */
     --button-background-color: var(--clr-primary-alfa);
@@ -506,7 +506,7 @@ body {
     letter-spacing: var(--h4-letter-spacing);
 }
 .imagenTexto .texto p, .sobre-mes-millor-page ul li p {
-    margin-bottom: 8px;
+    margin-bottom: 15px;
     text-align: left;
     color: var(--text-color);
     font-family: var(--text-font-family);
@@ -845,9 +845,17 @@ footer .footer-primary a button:hover {
         margin: 8px;
     }
     .imgnx {
-        width: 70vw;
-        height: 70vw;
+        width: 70%;
+        height: auto;
+        margin: 30px auto;
     }
+
+    /* SOBRE MES MILLOR PAGINA */
+    .sobre-mes-millor-page {
+        padding: 20px 25px;
+    }
+
+    /* FOOTER */
     .footer-primary {
         display: flex;
         flex-direction: column;
@@ -868,10 +876,5 @@ footer .footer-primary a button:hover {
     }
     footer .footer-primary .footer-contacto .contacto-info button {
         margin: 15px auto;
-    }
-
-    /* SOBRE MES MILLOR PAGINA */
-    .sobre-mes-millor-page {
-        padding: 20px 25px;
     }
 }
