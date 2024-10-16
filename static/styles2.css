@@ -83,10 +83,12 @@
     --in-text-a-hover-color: var(--corp-clr-terciary);
     
     /* Notas informativas */
-    --no-button-background-color: var(--corp-clr-terciary);
+    --no-button-background-color: var(--corp-clr-secondary);
     --no-button-border-color: var(--clr-terciary-dark);
     --no-button-letter-spacing: 1.6px;
+    --no-button-text-color: white;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -424,7 +426,16 @@ body {
     cursor: pointer;
     scale: 1.05;
 }
-
+.no-button {
+    background-color: var(--no-button-background-color);
+    border: var(--no-button-border-color);
+    letter-spacing: var(--no-button-letter-spacing);
+    color: var(--no-button-text-color);
+    font-size: 16px;
+    margin-top: 50px;
+    padding: 9px 18px;
+    border-radius: 11px;
+}
 
 
 /* PSICONUTRICION */
@@ -623,7 +634,7 @@ body {
 .rombos {
     width: 50%;
     display: flex;
-    margin: 40px auto;
+    margin: 50px auto;
 }
 .rombo {
     height: 12px;
@@ -650,6 +661,46 @@ body {
     color: var(--corp-clr-secondary);
     font-size: calc(initial + 8px);
 }
+.porque-yoga-embarazo h1 {
+    font-size: var(--title-font-size);
+    font-weight: var(--title-font-weigth);
+    color: var(--title-color);
+    letter-spacing: var(--title-letter-spacing);
+    line-height: var(--title-line-height);
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* YOGA POSTNATAL */
+.intro-postnatal {
+    display: flex;
+}
+.intro-postnatal h1 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: var(--title-font-size);
+    font-family: var(--title-font-family);
+    font-weight: var(--title-font-weigth);
+    letter-spacing: var(--title-letter-spacing);
+    line-height: var(--title-line-height);
+}
+.intro-postnatal img {
+    width: 50%;
+}
+.con-tu-bebe {
+    margin: 60px auto 60px auto;
+    width: 60%;
+}
+.con-tu-bebe h1 {
+    text-align: center;
+    font-size: 48px;
+}
+.con-tu-bebe div {
+    margin-bottom: 30px;
+}
+
+
 
 /* FOOTER */
 footer {
