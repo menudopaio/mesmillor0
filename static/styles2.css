@@ -610,6 +610,12 @@ body {
     height: 18px;
     /* filter: invert(1); */
 }
+.bold {
+    font-size: 16px;
+    font-weight: 700;
+    color: #848484;
+
+}
 .faq { margin-bottom: 40px; }
 .faq h2 {
     color: var(--clr-primary-alfa);
@@ -628,6 +634,22 @@ body {
 }
 
 
+
+/* YOGA PARA EMBARAZADAS */
+.yoga-para-embarazadas-page {
+    width: 82%;
+    margin: 40px auto;
+}
+.yoga-para-embarazadas-page .noMostrar {
+    color: white;
+    margin: 0;
+    height: 1px;
+}
+.yoga-para-embarazadas-page h1 { text-align: center; }
+.yoga-para-embarazadas-page .titulos span {
+    color: var(--corp-clr-secondary);
+    font-size: calc(initial + 8px);
+}
 
 /* FOOTER */
 footer {
