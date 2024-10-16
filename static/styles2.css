@@ -699,7 +699,38 @@ body {
 .con-tu-bebe div {
     margin-bottom: 30px;
 }
+.yoga-postnatal-page .imagenTexto img {
+    width: 50%;
+}
+.yoga-postnatal-page .imagenTexto {
+    margin-bottom: 80px;
+}
+.yoga-postnatal-page .imagenTexto .texto {
+    padding: 30px;
+}
+.yoga-postnatal-page .imagenTexto .texto p {
+    width: 80%;
+}
+.yoga-postnatal-page .titulo, .yoga-postnatal-page .subtitulos {
+    line-height: 1.2;
+    letter-spacing: 1;
+    width: 65%;
+}
+.yoga-postnatal-page .titulo {
+    font-size: 52px;
+    font-weight: 400;
 
+}
+.yoga-postnatal-page .info-postnatal {
+    width: 45%;
+    margin-left: 100px;
+}
+.yoga-postnatal-page .info-postnatal p {
+    padding-left: 80px;
+}
+.yoga-postnatal-page .info-postnatal .no-button {
+    margin-bottom: 140px;
+}
 
 
 /* FOOTER */
