@@ -494,7 +494,7 @@ body {
     width: 40%;
 }
 .imagenTexto .texto {
-    margin-left: 60px;
+    margin-left: 50px;
     width: 60%
 }
 .titulo-seccion {
@@ -551,7 +551,7 @@ body {
     list-style: inside;
     margin: 5px 20px;
 }
-.sobre-mes-millor-page ul li a {
+.sobre-mes-millor-page ul li a, .clasesYoga .faq a {
     color: var(--corp-clr-secondary);
     text-decoration: none;
 }
@@ -582,6 +582,51 @@ body {
 .clasesYoga .imagenTexto .texto button {
     text-align: center;
 }
+
+.cen { text-align: center; font-size: 60px; }
+
+
+.horarios { margin-bottom: 150px; }
+
+.horarios .titulo-seccion {
+    margin-top: 40px;
+    font-size: 46px;
+    font-weight: 500;
+}
+.horarios table {
+    width: 50%;
+    height: auto;
+    border-collapse: collapse;
+}
+/* .horarios thead tr {
+    background-color: var(--clr-primary-alfa);
+} */
+
+.horarios th, .horarios td {
+    text-align: left;
+}
+.horarios th img {
+    width: 18px;
+    height: 18px;
+    /* filter: invert(1); */
+}
+.faq { margin-bottom: 40px; }
+.faq h2 {
+    color: var(--clr-primary-alfa);
+}
+.rombos {
+    width: 50%;
+    display: flex;
+    margin: 40px auto;
+}
+.rombo {
+    height: 12px;
+    width: 12px;
+    transform: rotate(45deg);
+    background-color: var(--clr-secondary-light);
+    margin: 0 auto;
+}
+
 
 
 /* FOOTER */
@@ -835,6 +880,11 @@ footer .footer-primary a button:hover {
     }
     .clasesYoga .imagenTexto .texto ul li {
         list-style: inside;
+    }
+    .cen { margin-bottom: 0; }
+
+    .rombo {
+        scale: 0.5;
     }
 }
 
