@@ -454,7 +454,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-.tresTitulos h4, .psiconutricion .tresTitulos h2, .psiconutricion .tresTitulos p {
+.tresTitulos h4, .tresTitulos h2, .tresTitulos p {
     margin-bottom: 15px;
 }
 .tresTitulos h2 {
