@@ -609,6 +609,7 @@ body {
     height: auto;
     border-collapse: collapse;
 }
+
 /* .horarios thead tr {
     background-color: var(--clr-primary-alfa);
 } */
@@ -669,6 +670,13 @@ body {
     line-height: var(--title-line-height);
     width: 80%;
     margin: 0 auto;
+}
+.yoga-para-embarazadas-page .horarios p {
+    width: 45%;
+    margin-top: 40px;
+}
+.yoga-para-embarazadas-page .horarios table {
+    width: 35%;
 }
 
 /* YOGA POSTNATAL */
@@ -989,6 +997,22 @@ footer .footer-primary a button:hover {
 
     .rombo {
         scale: 0.5;
+    }
+
+    .horarios {
+        margin: 0 auto 150px auto;
+        width: 100%;
+    }
+    .horarios .titulo-seccion {
+        text-align: center;
+    }
+    .horarios table {
+        width: 40%;
+        margin: 0 auto;
+    }
+    .horarios p, .horarios .no-button {
+        display: flex;
+        margin: 25px auto;
     }
 }
 
